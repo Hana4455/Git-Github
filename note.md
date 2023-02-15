@@ -22,3 +22,5 @@ Remote
 - git branch -d {branch name}
 - git push + link + banch name
 - git clone + link
+<!-- merge on git with master now local  -->
+- git pull
