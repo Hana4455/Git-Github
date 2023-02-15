@@ -15,7 +15,7 @@ Remote
 - git commit + -m + ''
 - git log
 - git log --oneline
-- git checkout {branch name/master
+- git checkout {branch name/master}
 <!-- check branch  -->
 - git branch
 <!-- creat branch  -->
@@ -23,8 +23,12 @@ Remote
 - git merge {branch name}
 <!-- delete branch  -->
 - git branch -d {branch name}
-- git push + link + banch name / -u origin banch name
-- git clone + link
+- git push + {repo url} + {banch name}
+- git remote add origin {repo url}
+- git push -u origin banch name
+- git clone + {repo url}
 <!-- merge on git with master now local  -->
 - git pull
 - git fetch origin
+- git checkout -b {branch name}
+  origin/{branch name} on github
